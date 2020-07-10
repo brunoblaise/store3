@@ -17,7 +17,9 @@ export default class HomeTab extends Component {
      <li>
      <a href={"#" + product._id}>service</a>
      </li>
-   <a className="user">user</a>
+     <div className="SearchBar-submits">
+              <a>user</a>
+            </div>
 </ul>
                      ) ))
                   
