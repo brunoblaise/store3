@@ -1,0 +1,22 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+ul, li{ 
+     display: flex;
+    justify-content: space-between;
+align-items: center;
+padding: 1rem;
+}
+a{
+    padding: 1rem;
+    color: black;
+}
+.user{
+  position: absolute;
+  left: 1200px;
+    border: 1px solid black;
+    width: 40px;
+    height:  10px;
+   
+}
