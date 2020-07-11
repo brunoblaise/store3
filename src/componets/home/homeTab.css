@@ -12,17 +12,17 @@
     background-color: #24292e;
     height: 52.67px;
 }
-ul, li{ 
+.main-header ul,.main-header li{ 
      display: flex;
     justify-content: space-between;
 align-items: center;
 padding: 1rem;
 }
-img{
+.main-header img{
     height: 31.27px;
     width: 32px;
 }
-a{
+.main-header a{
     padding: 1rem;
     color: hsla(0,0%,100%,.7);
     text-decoration: none;

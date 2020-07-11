@@ -12,7 +12,10 @@ export default class Main extends Component {
               <input placeholder="Where" />
             </div>
             <div className="SearchBar-submit">
-              <a>Let's Go</a>
+              {this.props.greats.map((great)=>(
+                  <a href={"#"+ great._id}>{great.name}</a>
+              ))}
+            
           </div>
           </div>
         )
